@@ -1,25 +1,16 @@
 {
-  "name": "products-api",
+  "name": "practice-2-express-crud-products",
   "version": "1.0.0",
-  "description": "REST API для управления товарами",
+  "description": "CRUD API для управления товарами на Express.js",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch app.js"
   },
-  "keywords": [
-    "express",
-    "api",
-    "rest",
-    "products"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
+  "keywords": ["express", "crud", "api", "products"],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
