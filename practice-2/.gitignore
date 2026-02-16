@@ -1,0 +1,12 @@
+cat > .gitignore << EOF
+# Зависимости
+node_modules/
+package-lock.json
+
+# Системные файлы
+.DS_Store
+.env
+
+# Логи
+npm-debug.log*
+EOF
