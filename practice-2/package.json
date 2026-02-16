@@ -1,4 +1,6 @@
+//..
 {
+
   "name": "practice-2-express-crud-products",
   "version": "1.0.0",
   "description": "CRUD API для управления товарами на Express.js",
