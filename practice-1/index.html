@@ -2,51 +2,17 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карточка товара</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<div class="product-card">
-    <!-- Фото товара -->
-    <div class="product-image">
-        <img src="phone.png"
-             alt="Ноутбук">
-    </div>
-
-    <!-- Контент -->
-    <div class="product-content">
-        <div class="product-header">
-            <h2 class="product-title">Ноутбук Apple MacBook Pro</h2>
-            <div class="product-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>4.7</span>
-            </div>
-        </div>
-
-        <p class="product-description">
-            16-дюймовый дисплей, процессор M2 Pro, 16 ГБ ОЗУ, 512 ГБ SSD
-        </p>
-
-        <div class="product-price">
-            <span class="current-price">199 990 ₽</span>
-            <span class="old-price">249 990 ₽</span>
-        </div>
-
-        <div class="product-actions">
-            <button class="btn btn-primary">
-                <i class="fas fa-shopping-cart"></i> В корзину
-            </button>
-            <button class="btn btn-secondary">
-                <i class="far fa-heart"></i>
-            </button>
-        </div>
-    </div>
+<div class="card card--accent">
+    <img class="card__image" src="phone.png" alt="Смартфон">
+    <h2 class="card__title">iphone 17 pro</h2>
+    <p class="card__description">
+        Современный смартфон с мощным процессором, ярким дисплеем и ёмким аккумулятором.
+    </p>
+    <a class="btn" href="#">Купить</a>
 </div>
 </body>
 </html>
