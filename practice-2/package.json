@@ -1,15 +1,13 @@
-//..
 {
-
-  "name": "practice-2-express-crud-products",
+  "name": "practice-2-express-crud",
   "version": "1.0.0",
-  "description": "CRUD API для управления товарами на Express.js",
+  "description": "CRUD API для товаров на Express.js",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "node --watch app.js"
   },
-  "keywords": ["express", "crud", "api", "products"],
+  "keywords": ["express", "crud", "api"],
   "author": "",
   "license": "ISC",
   "dependencies": {
